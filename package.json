@@ -1,0 +1,23 @@
+{
+  "name": "ng-seo",
+  "version": "1.0.0",
+  "description": "angularjs seo",
+  "main": "index.js",
+  "scripts": {
+    "problem": "http-server ./views -p 9000 -a 127.0.0.1",
+    "solution-1": "node ./solution-1",
+    "solution-2": "node ./solution-2",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aref Mirhosseini <code@arefmirhosseini.com> (http://arefmirhosseini.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.10.0"
+  },
+  "dependencies": {
+    "express": "^4.15.4",
+    "hbs": "^4.0.1",
+    "lodash": "^4.17.4",
+    "prerender-node": "^2.7.2"
+  }
+}
